@@ -70,7 +70,7 @@ we recommend that you could set the argument `i_testset` to 200000 (the total nu
 Remember to turn on the flag `--no_ndc` as it will be a more proper setting for feed-forwarding scenes.
 
 The default training/testing split is the seven views {0, 8, 16, 24, 32, 40, 48} are the hold-out testing views
-and the rest are training views for optimization process. You could customize your own training/testing split on line xxx.
+and the rest are training views for optimization process. You could customize your own training/testing split on [L651](https://github.com/zsh2000/SS-NeRF/blob/856a3b3d12698a710b2b7a6805d878109a7cc692/run_nerf.py#L651) in run_nerf.py.
 
 
 ## Testing (Novel view synthesis)
