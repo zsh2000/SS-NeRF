@@ -84,7 +84,7 @@ running an additional command, which is the same as training command:
 python run_nerf.py --config configs/repaired.txt --no_ndc
 ```
 
-## Citing
+## Citation
 If you find our work useful, please consider citing:
 ```BibTeX
 @inproceedings{ssnerf-2023,
