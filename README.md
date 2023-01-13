@@ -15,6 +15,12 @@ To install the dependencies, run:
 pip install -r requirements.txt
 ```
 
+## Dataset
+
+The dataset used in the paper can be accessed through https://drive.google.com/file/d/1GilHPjIqsa3Fjtizy1RJIGL2p2beHbhP/view?usp=sharing. It consists of 4 scenes from the Replica dataset, each having 50 frames. 
+
+[^_^]: If you want to render your own scenes in Replica, the directly rendered Replica scene contains RGB images, depth map and 88-class semantic labels. We map the 88-class semantic labels to NYU-13 definitions. The surface normals are derived from depth maps. The edges are 
+
 ## Data Preparation
 First organize the data of the scene in the hierarchy shown below (e.g., there are 50 frames in this scene):
 
